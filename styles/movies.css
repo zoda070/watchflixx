@@ -1,0 +1,97 @@
+.watch-section .container h1,
+.movies-section .container h1,
+.show-section .container h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.background {
+    background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 300%);
+    padding-top: 110px;
+}
+
+.watch-movie-1,
+.watch-movie-2,
+.movies-1,
+.movies-2,
+.shows-1,
+.shows-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie-1,
+.movie-2,
+.movie-3,
+.movie-4,
+.movie-5 {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.movie-name {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.movie-name h2 {
+    font-size: 36px;
+}
+
+.movie-name div,
+.movie-name div p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.movie-name div {
+    width: 200px;
+}
+
+.movie-name p {
+    width: 95px;
+}
+
+.movie-name h2 {
+    margin: 0;
+}
+
+.watch-movie-1 :hover,
+.watch-movie-2 :hover,
+.movies-1 :hover,
+.movies-2 :hover,
+.shows-1 :hover,
+.shows-2 :hover {
+    cursor: pointer;
+}
+
+.watch-section,
+.movies-section,
+.show-section {
+    margin-bottom: 120px;
+}
+
+
+@media screen and (max-width: 837px) {
+    .movie-1 img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1269px) {
+
+    .watch-movie-1,
+    .watch-movie-2,
+    .movies-1,
+    .movies-2,
+    .shows-1,
+    .shows-2 {
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 300%);
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+header {
+    padding-top: 35px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1254px;
+}
+
+header .container,
+.header-search-profile,
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-name {
+    width: 152px;
+}
+
+.header-link {
+    width: 658px;
+    margin: 10px 0 12px 0;
+}
+
+.header-link :hover {
+    font-weight: 700;
+    border-bottom: 4px solid yellow;
+}
+
+a {
+    text-decoration: none;
+    color: #E6E6E6;
+}
+
+.header-search-profile {
+    width: 218px;
+}
+
+.header-search-profile :hover {
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 146px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.search {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+/* ---------- */
+
+.hero-movie {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.hero-images {
+    position: relative;
+}
+
+
+.hero-play-image {
+    position: absolute;
+    bottom: 12px;
+    left: 8px;
+    cursor: pointer;
+}
+
+.trailers :hover {
+    cursor: pointer;
+}
+
+.hero-text {
+    width: 441px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    line-height: 96px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.hero-duration {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.hero-trailers h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.trailers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trailers div p {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.trailers div {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.trailers div p {
+    position: absolute;
+    right: 8px;
+    bottom: -16px;
+}
+
+.hero-section {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 644px) {
+    .trailers {
+        justify-content: center;
+    }
+    .hero-image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1136px) {
+
+    header .container,
+    .header-search-profile,
+    .header-link {
+        justify-content: space-around;
+    }
+}

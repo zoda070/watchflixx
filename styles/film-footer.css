@@ -1,0 +1,206 @@
+.films {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 60px;
+    width: 1232px;
+}
+
+.film-play-image {
+    position: absolute;
+    left: 45.5%;
+    bottom: 45.5%;
+    cursor: pointer;
+}
+
+.film-text {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+.film-text h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.film-text p {
+    line-height: 32px;
+    width: 370px;
+}
+
+/* ------------ */
+
+.film-episodes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.episode-1,
+.episode-2,
+.episode-3 {
+    width: 400px;
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.episode-text {
+    line-height: 24px;
+    width: 214px;
+    padding: 10px 0 0 10px;
+    background-color: #1E1E1E;
+}
+
+.episode-text h4 {
+    line-height: 36px;
+    margin: 0;
+}
+
+.episode-text p {
+    color: #E6E6E6;
+    margin: 0;
+    font-size: 12px;
+    width: 170px;
+}
+
+.episode-time {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1258px) {
+    .films {
+        width: 817px;
+    }
+
+    .film-play-image {
+        left: 44%;
+    }
+}
+
+@media screen and (max-width: 843px) {
+    .films {
+        width: 400px;
+    }
+
+    .film-play-image {
+        width: 70px;
+        left: 42%;
+    }
+}
+
+
+.film-section {
+    padding-bottom: 60px;
+}
+
+/* ------------ */
+
+footer {
+    padding: 60px 0 60px 0;
+    background: #3D3D3D;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-email {
+    width: 457px;
+    padding-left: 25px;
+}
+
+.footer-email h1 {
+    font-weight: 500;
+    font-size: 52px;
+}
+
+.footer-email p {
+    width: 320px;
+    padding: 30px 0 25px 0;
+    line-height: 32px;
+    font-size: 14px;
+    color: #E6E6E6;
+}
+
+.footer-form p {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 0;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+
+.email-button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.mail {
+    padding: 10px 10px;
+    background-color: #525252;
+    border: none;
+    border-radius: 8px;
+    width: 220px;
+    color: white;
+}
+
+.footer-about {
+    padding: 30px 0 0 0;
+    width: 650px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.product,
+.media,
+.sitemap {
+    display: flex;
+    flex-direction: column;
+}
+
+.product a,
+.media a,
+.sitemap a {
+    margin-top: 25px;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+
+.footer-contacts div p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 499px) {
+    .footer-about {
+        width: 400px;
+    }
+}
